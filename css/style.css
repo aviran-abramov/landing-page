@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+:root {
+  --hero-footer-background: #1F2937;
+  --header-logo-text: F9FAF8;
+  --hero-main-text: #F9FAF8;
+  --hero-secondary-text: #E5E7EB;
+  --button: #3882F6;
+  --information-header-text: #1F2937;
+  --quote-section-background: #E5E7EB;
+  --quote-text: #1F2937;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
