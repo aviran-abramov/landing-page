@@ -2,7 +2,7 @@
 
 :root {
   --hero-footer-background: #1F2937;
-  --header-logo-text: F9FAF8;
+  --header-logo-text: #F9FAF8;
   --hero-main-text: #F9FAF8;
   --hero-secondary-text: #E5E7EB;
   --button: #3882F6;
@@ -11,6 +11,7 @@
   --quote-text: #1F2937;
 }
 
+/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,4 +24,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
