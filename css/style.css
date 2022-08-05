@@ -110,10 +110,42 @@ body {
 }
 
 /* INFORMATION SECTION */
+.information-container {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .information-header-text {
   font-size: 36px;
   font-weight: 900;
   color: var(--information-header-text);
+  margin: 40px 0;
+}
+
+.information-boxes {
+  display: flex;
+  gap: 40px;
+}
+
+.information-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.information-image {
+  border: 4px solid var(--button);
+  border-radius: 10px;
+  height: 140px;
+  width: 140px;
+}
+
+.information-box-text {
+  text-align: center;
+  width: 150px;
 }
 
 /* QUOTE SECTION */
