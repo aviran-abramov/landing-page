@@ -30,3 +30,52 @@ a {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER SECTION */
+.header-section {
+  background-color: var(--hero-footer-background);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--header-logo-text);
+}
+
+.hero-main-text {
+  color: var(--hero-main-text);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: var(--hero-secondary-text);
+}
+
+.signup {
+  background-color: var(--button);
+}
+
+/* INFORMATION SECTION */
+.information-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--information-header-text);
+}
+
+/* QUOTE SECTION */
+.quote-section {
+  background-color: var(--quote-section-background);
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--quote-text);
+}
+
+/* FOOTER */
+.footer-section {
+  background-color: var(--hero-footer-background);
+}
