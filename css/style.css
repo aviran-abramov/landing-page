@@ -177,6 +177,40 @@ body {
   width: 700px;
 }
 
+/* CALL-TO-ACTION SECTION */
+.cta-section {
+  height: 320px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  background-color: var(--cta-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 960px;
+  border-radius: 6px;
+  padding: 40px;
+}
+
+.cta-header {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.cta-text {
+  color: gainsboro;
+}
+
+.signup-cta {
+  border: 1px solid #fff;
+}
+
 /* FOOTER */
 .footer-section {
   background-color: var(--hero-footer-background);
