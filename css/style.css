@@ -150,7 +150,16 @@ body {
 
 /* QUOTE SECTION */
 .quote-section {
+  height: 380px;
   background-color: var(--quote-section-background);
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .quote {
@@ -158,6 +167,14 @@ body {
   font-style: italic;
   font-weight: 300;
   color: var(--quote-text);
+  width: 760px;
+}
+
+.quote-author {
+  width: 800px;
+  text-align: end;
+  font-weight: bold;
+  width: 700px;
 }
 
 /* FOOTER */
